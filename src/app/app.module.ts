@@ -5,9 +5,12 @@ import {HttpModule, JsonpModule} from '@angular/http';
 
 import {AppComponent} from './app.component';
 
+import { TrainingDateComponent } from './training-date-component';
+
 @NgModule({
     declarations: [
         AppComponent,
+        TrainingDateComponent
     ],
     imports: [
         BrowserModule,
