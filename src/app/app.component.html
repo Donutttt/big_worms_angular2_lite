@@ -1,7 +1,15 @@
-<h1>
-  This is the app component
-</h1>
-<div *ngFor="let tDate of trainingDates">
-  {{ tDate.dayName }}
-  <training-date trainingDate="tDate"></training-date>
+<div class="container">
+
+  <div class="header-row row">
+    <div class="col-xs-12">
+        <h1>Banbury Big Worms</h1>
+        <location-map></location-map>
+    </div>
+  </div>
+
+  <div class="training-row row">
+    <div *ngFor="let tDate of trainingDates" class="col-xs-3">
+      <training-date [trainingDate]="tDate"></training-date>
+    </div>
+  </div>
 </div>

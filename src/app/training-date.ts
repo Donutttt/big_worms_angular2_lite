@@ -16,7 +16,7 @@ export class TrainingDate {
 
     location: string = '';
 
-    eventDate: Date;
+    minuteString: string = '';
 
     /**
      * just a day of a training
@@ -30,6 +30,8 @@ export class TrainingDate {
         this.weekDay = weekDay;
         this.hour = hour;
         this.minute = minute;
+
+        this.minuteString = this.minute + (this.minute < 10 ? '0' : '');
 
         this.dayName = dayNames[this.weekDay];
 

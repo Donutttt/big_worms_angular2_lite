@@ -6,11 +6,13 @@ import {HttpModule, JsonpModule} from '@angular/http';
 import {AppComponent} from './app.component';
 
 import { TrainingDateComponent } from './training-date-component';
+import { LocationMap } from './map.component';
 
 @NgModule({
     declarations: [
         AppComponent,
-        TrainingDateComponent
+        TrainingDateComponent,
+        LocationMap
     ],
     imports: [
         BrowserModule,

@@ -6,9 +6,16 @@ import { TrainingDate } from './training-date';
 @Component({
   selector: 'training-date',
   template: `
-    <p>Training date component:</p>
-    <p>{{ trainingDate.location }}</p>
-  `
+    <div class="training-date-wrapper">
+      <h3>{{ trainingDate.location }}</h3>
+      <p>{{ trainingDate.dayName }}s at {{ trainingDate.hour }}.{{ trainingDate.minuteString }}</p>
+    </div>
+  `,
+  styles: [`
+    .training-date-wrapper{
+        background-color: aliceblue;
+    }
+  `]
 })
 export class TrainingDateComponent{
     @Input() trainingDate: TrainingDate;
