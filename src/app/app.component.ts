@@ -7,7 +7,10 @@ import '../styles.css';
 
 @Component({
     selector: 'my-app',
-    template: require('./app.component.html')
+    template: require('./app.component.html'),
+    styles: [`
+
+    `]
 })
 
 export class AppComponent implements OnInit {

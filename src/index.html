@@ -1,12 +1,54 @@
 <!doctype html>
 <html>
+
 <head>
     <base href="/">
     <title>big-worms-ang-lite</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
+
 <body>
-    <my-app>Loading...</my-app>
+
+    <div id="fb-root"></div>
+    <script>
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.8&appId=928403163930818";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+    <div class="container">
+
+      <embed height="0" width="0"
+  src="http://youtube.googleapis.com/v/kLMqeCBfDNI&autoplay=1&loop=1" />
+
+        <div class="header-row row">
+            <div class="col-xs-12">
+                <h1>Banbury Big Worms</h1>
+            </div>
+        </div>
+        <my-app>Loading...</my-app>
+
+        <div class="row events social">
+
+
+            <div class="col-xs-12 col-md-6">
+              Events go here
+            </div>
+
+            <div class="col-xs-12 col-md-6">
+              <div class="fb-page" data-href="https://www.facebook.com/BanburyBigWorms/" data-tabs="timeline" data-width="300" data-small-header="false" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/BanburyBigWorms/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/BanburyBigWorms/">Banbury Big Worms Ultimate Frisbee</a></blockquote></div>
+            </div>
+        </div>
+    </div>
 </body>
+
+<script>
+</script>
+
 </html>

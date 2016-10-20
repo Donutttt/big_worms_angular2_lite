@@ -8,11 +8,14 @@ import {AppComponent} from './app.component';
 import { TrainingDateComponent } from './training-date-component';
 import { LocationMap } from './map.component';
 
+import { SafePipe } from './safe.pipe';
+
 @NgModule({
     declarations: [
         AppComponent,
         TrainingDateComponent,
-        LocationMap
+        LocationMap,
+        SafePipe
     ],
     imports: [
         BrowserModule,
