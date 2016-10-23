@@ -1,5 +1,6 @@
 <div class="training-row row">
-    <div *ngFor="let tDate of trainingDates" class="col-xs-12 col-md-6 training-date-col">
+    <h2>Training Times</h2>
+    <div *ngFor="let tDate of trainingDates" class="col-xs-12 col-md-12 training-date-col">
         <training-date [trainingDate]="tDate"></training-date>
     </div>
 </div>

@@ -1,0 +1,15 @@
+[{
+    "weekDay": 0,
+    "hour": 14,
+    "minute": 0,
+    "dayName": "Sunday",
+    "location": "Spiceball Park",
+    "minuteString": "00"
+}, {
+    "weekDay": 1,
+    "hour": 18,
+    "minute": 30,
+    "dayName": "Monday",
+    "location": "The Warriner School",
+    "minuteString": "30"
+}]

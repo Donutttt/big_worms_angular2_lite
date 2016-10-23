@@ -18,6 +18,7 @@ let lightBlue:string = '#07a4d7'
         padding: 0.5em 1em;
         background-color: white;
         margin: 1em;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
     }
   `]
 })

@@ -1,0 +1,1 @@
+webpack --config config/webpack.prod.js --progress --colors --profile --bail
